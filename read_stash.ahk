@@ -1,6 +1,6 @@
-SPEED := 4
-MOUSE_OVER_DELAY := 50
-CLIPBOAD_DELAY := 200
+SPEED := 2
+MOUSE_OVER_DELAY := 10
+CLIPBOAD_DELAY := 100
 
 
 
@@ -20,16 +20,22 @@ while (i < 13)
     clipboard =
     while (j < 13)
     {
+        j := j + 1
         Send ^c
         Sleep, CLIPBOAD_DELAY
-        FileAppend, <el i=%i% j=%j%>%clipboard%</el>`n, inv.txt
+        regclip := RegExReplace(clipboard, "s)---..*$")
+
+        FileAppend, <el i=%i% j=%j%>%regclip%</el>`n, inv.txt
         clipboard =
         
-        MouseMove, _InvOffsetX, 0, SPEED, R
-        Sleep, MOUSE_OVER_DELAY
-        j := j + 1
+        if (j < 13)
+        {
+            MouseMove, _InvOffsetX, 0, SPEED, R
+            Sleep, MOUSE_OVER_DELAY
+        }    
+        
     }
-    MouseMove, -12*_InvOffsetX, _InvOffsetY, SPEED, R
+    MouseMove, -11*_InvOffsetX, _InvOffsetY, SPEED, R
     Sleep, MOUSE_OVER_DELAY
     i := i + 1
 }
