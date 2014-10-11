@@ -1,0 +1,11 @@
+<currency>
+    <regid>Currency</regid>
+</currency>
+<map>
+    <regid>Map</regid>
+    <regid>Sacrifice</regid>
+</map>
+<jewellery>
+    <regid>Ring</regid>
+    <regid>Amulet</regid>
+</map>
