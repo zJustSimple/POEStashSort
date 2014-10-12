@@ -1,6 +1,6 @@
-SPEED := 1 ;;; mouse movement speed
+SPEED := 2 ;;; mouse movement speed
 MOUSE_OVER_DELAY := 20 ;;; delay after mouse moved
-CLIPBOAD_DELAY := 10 ;;; delay after ctrl + c pressed
+CLIPBOAD_DELAY := 50 ;;; delay after ctrl + c pressed
 CLICK_DELAY := 300 ;;; delay after mouse click
 BETWEEN_ACTIONS_DELAY := 300 ;;;
 
@@ -130,7 +130,7 @@ iter := 1
 while (iter <= ParseCount)
 {
     if (NOTIFICATIONS > 0) 
-        TrayTip,Progress,%iter%/%ParseCount%
+        TrayTip,Progress,%iter%/%ParseCount%,10
     i := 1
     while (i < 13)
     {
@@ -217,7 +217,7 @@ while (iter <= ParseCount)
     iter := iter + 1
 }
 if (NOTIFICATIONS > 0)
-    TrayTip,Progress,Finished!
+    TrayTip,Progress,Finished!,10
 
 
 
