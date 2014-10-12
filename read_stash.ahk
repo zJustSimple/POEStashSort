@@ -6,6 +6,9 @@ BETWEEN_ACTIONS_DELAY := 300 ;;;
 
 SORT_FILE := "sort1.txt" ;;; name of file with sort layout
 
+TOP_RIGHT_CORNER_X := 30
+TOP_RIGHT_CORNER_Y := 135
+
 LOGGING := 0
 NOTIFICATIONS := 1
 
@@ -32,7 +35,7 @@ WinWait, Path of Exile
 WinActivate ;
 FileDelete, inv.txt
 
-MouseMove, 30, 135, SPEED
+MouseMove, TOP_RIGHT_CORNER_X, TOP_RIGHT_CORNER_Y, SPEED
 Sleep, MOUSE_OVER_DELAY
 i := 1
 while (i < 13)
@@ -253,8 +256,8 @@ Swap(sx, sy, s1x, s1y)
 GetCoords(gcx, gcy)
 {
     global
-    FoundX := 30 + (gcx-1)*_InvOffsetX
-    FoundY := 135 + (gcy-1)*_InvOffsetY
+    FoundX := TOP_RIGHT_CORNER_X + (gcx-1)*_InvOffsetX
+    FoundY := TOP_RIGHT_CORNER_Y + (gcy-1)*_InvOffsetY
 }
 
 FindPlace(fpx, fpy, iteration)
