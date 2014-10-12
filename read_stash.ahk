@@ -6,8 +6,8 @@ BETWEEN_ACTIONS_DELAY := 300 ;;;
 
 SORT_FILE := "sort1.txt" ;;; name of file with sort layout
 
-TOP_RIGHT_CORNER_X := 30
-TOP_RIGHT_CORNER_Y := 135
+TOP_RIGHT_CORNER_X := 30 ;;; Top right X coordinate of stash
+TOP_RIGHT_CORNER_Y := 135 ;;; Top right Y coordinate of stash
 
 LOGGING := 0
 NOTIFICATIONS := 1
