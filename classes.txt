@@ -1,11 +1,28 @@
-<currency>
-    <regid>Currency</regid>
-</currency>
-<map>
-    <regid>Map</regid>
-    <regid>Sacrifice</regid>
-</map>
-<jewellery>
-    <regid>Ring</regid>
-    <regid>Amulet</regid>
-</map>
+Wisdom wis
+Portal por
+Scrap scr
+Whetstone whe
+Bauble bau
+Chisel chi
+Gemcutter gcp
+Jeweller jew
+Chromatic chr
+Fusing fus
+Transmutation tra
+Chance cha
+Alchemy alc
+Regal rel
+Augmentation aug
+Exalted exa
+Alteration alt
+Chaos cha
+Blessed ble
+Divine div
+Scouring sco
+Regret rer
+Vaal vaa
+Ring jwl
+Amulet jwl
+Map map
+Sacrifice map
+Gem gem
