@@ -7,10 +7,10 @@ BETWEEN_ACTIONS_DELAY := 300 ;;;
 SORT_FILE := "sort1.txt" ;;; name of file with sort layout
 
 TOP_RIGHT_CORNER_X := 30 ;;; Top right X coordinate of stash
-TOP_RIGHT_CORNER_Y := 135 ;;; Top right Y coordinate of stash
+TOP_RIGHT_CORNER_Y := 125 ;;; Top right Y coordinate of stash
 
 LOGGING := 0
-NOTIFICATIONS := 1
+NOTIFICATIONS := 0
 
 EMPTY_PLACE := "___"
 UNLISTED := "???"
@@ -21,15 +21,15 @@ ParseCount := 0
 Loop, read, classes.txt
 {
     ParseCount := ParseCount + 1
-    StringSplit, Parse%ParseCount%_, A_LoopReadLine, %A_Space%
+    StringSplit, Parse%ParseCount%_, A_LoopReadLine, `,
 
 }
 
 
 
 ;;; Read info from POE stash
-_InvOffsetX := 29
-_InvOffsetY := 29
+_InvOffsetX := 36
+_InvOffsetY := 36
 
 WinWait, Path of Exile
 WinActivate ;

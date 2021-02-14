@@ -1,28 +1,181 @@
-Wisdom wsd
-Portal prt
-Scrap scr
-Whetstone wht
-Bauble bbl
-Chisel chs
-Gemcutter gcp
-Jeweller jew
-Chromatic chr
-Fusing fus
-Transmutation trn
-Chance chn
-Alchemy alc
-Regal rgl
-Augmentation agm
-Exalted exl
-Alteration alt
-Chaos chs
-Blessed bls
-Divine dvn
-Scouring scr
-Regret rgr
-Vaal val
-Ring jwl
-Amulet jwl
-Map map
-Sacrifice map
-Gem gem
+Mirror of Kalandra, mrr
+Mirror Shard, msh
+Maven's Orb, mvo
+Tempering Orb, tpo
+Awakener's Orb, awo
+Crusader's Exalted Orb, cxo
+Exalted Orb, exo
+Hunter's Exalted Orb, hxo
+Prime Regrading Lens, prl
+Tailoring Orb, tro
+Warlord's Exalted Orb, wxo
+Redeemer's Exalted Orb, rxo
+Secondary Regrading Lens, srl
+Elevated Sextant, sxt
+Ancient Orb, ano
+Orb of Unmaking, oou
+Divine Orb, div
+Blessing of Chayula, boc
+Exalted Shard, esh
+Fertile Catalyst, fct
+Ritual Vessel, rvs
+Prismatic Catalyst, prc
+Harbinger's Orb, hbo
+Orb of Annulment, ooa
+Awakened Sextant, aws
+Anunulment Shard, xsh
+Chaos Orb, chs
+Blessing of Esh, boe
+Blessing of Tul, bot
+Blessing of Uul-Netol, bun
+Blessing of Xoph, box
+Gemcutter's Prism, gcp
+Rogue's Marker, rog
+Stacked Deck, stk
+Tempering Catalyst, tct
+Regal Orb, rgl
+Vaal Orb, vaa
+Orb of Regret, reg
+Splinter of Chayula, sch
+Turbulent Catalyst, tuc
+Prime Sextant, psx
+Simple Sextant, smx
+Orb of Scouring, scg
+Intrinsic Catalyst, itc
+Abrasive Catalyst, abc
+Cartographer's Chisel, chi
+Orb of Alteration, alt
+Splinter of Uul-Netol, sun
+Orb of Horizons, ohz
+Glassblower's Bauble, gls
+Orb of Fusing, fus
+Blessed Orb, bls
+Imbued Catalyst, ict
+Silver Coin, sco
+Chromatic Orb, chr
+Splinter of Esh, ses
+Splinter of Tul, stu
+Splinter of Xoph, sxo
+Orb of Alchemy, alc
+Engineer's Orb, eng
+Orb of Binding, bnd
+Orb of Augmentation, aug
+Orb of Chance, chc
+Jeweller's Orb, jew
+Perandus Coin, prc
+Portal Scroll, prt
+Orb of Transmutation, trs
+Armourer's Scrap, ars
+Blacksmith's Whetstone, bwh
+Scroll of Wisdom, wis
+Remnant of Corruption, rmt
+Deafening Essence of, es1
+Shrieking Essence of, es2
+Screaming Essence of, es3
+Wailing Essence of, es4
+Weeping Essence of, es5
+Muttering Essence of, es6
+Whispering Essence of, es7
+Fractured Fossil, fs1
+Faceted Fossil, fs2
+Bloodstained Fossil, fs3
+Hollow Fossil, fs4
+Corroded Fossil, fs5
+Glyphic Fossil, fs6
+Perfect Fossil, fs7
+Sanctified Fossil, fs8
+Bound Fossil, fs9
+Enchanted Fossil, fs10
+Lucent Fossil, fs11
+Shuddering Fossil, fs12
+Aetheric Fossil, fs13
+Gilded Fossil, fs14
+Serrated Fossil, fs15
+Aberrant Fossil, fs16
+Dense Fossil, fs17
+Encrusted Fossil, fs18
+Jagged Fossil, fs19
+Prismatic Fossil, fs20
+Pristine Fossil, fs21
+Tangled Fossil, fs22
+Frigid Fossil, fs23
+Metallic Fossil, fs24
+Scorched Fossil, fs25
+Golden Oil, oi1
+Silver Oil, oi2
+Opalescent Oil, oi3
+Crimson Oil, oi4
+Black Oil, oi5
+Azure Oil, oi6
+Indigo Oil, oi7
+Teal Oil, oi8
+Violet Oil, oi9
+Amber Oil, oi10
+Clear Oil, oi11
+Sepia Oil, oi12
+Verdant Oil, oi13
+The Maven's Writ,
+Crescent Splinter,
+Simulacrum, sm1
+Simulacrum Splinter, sm2
+Chayula's Pure Breachstone, bp1
+Uul-Netol's Pure Breachstone, bp2
+Esh's Pure Breachstone, bp3
+Tul's Pure Breachstone, bp4
+Xoph's Pure Breachstone, bp5
+Chayula's Enriched Breachstone, be1
+Uul-Netol's Enriched Breachstone, be2
+Xoph's Enriched Breachstone, be3
+Tul's Enriched Breachstone, be4
+Esh's Enriched Breachstone, be5
+Chayula's Charged Breachstone, bc1
+Uul-Netol's Charged Breachstone, bc2
+Tul's Charged Breachstone, bc3
+Esh's Charged Breachstone, bc4
+Xoph's Charged Breachstone bc5
+Chayula's Breachstone, br1
+Uul-Netol's Breachstone, br2
+Tul's Breachstone, br3
+Xoph's Breachstone br4
+Esh's Breachstone, br5
+Fragment of Shape, ue1
+Fragment of Knowledge, ue2
+Fragment of Terror, ue3
+Fragment of Emptiness, ue4
+Fragment of Constriction, re1
+Fragment of Enslavement, re2
+Fragment of Eradication, re3
+Fragment of Purification, re4
+Fragment of the Chimera, gu1
+Fragment of the Hydra, gu2
+Fragment of the Minotaur, gu3
+Fragment of the Phoenix, gu4
+Volkuur's Key, pa1
+Yriel's Key, pa2
+Eber's Key, pa3
+Inya's Key, pa4
+Mortal Ignorance, ua1
+Mortal Rage, ua2
+Mortal Hope, ua3
+Mortal Grief, ua4
+Sacrifice at Midnight, az1
+Sacrifice at Dawn, az2
+Sacrifice at Noon, az3
+Sacrifice at Dusk, az4
+Timeless Maraketh Emblem, tm1
+Timeless Templar Emblem, tm2
+Timeless Vaal Emblem, tm3
+Timeless Eternal Emblem, tm4
+Timeless Karui Emblem, tm5
+Timeless Maraketh Splinter, ts1
+Timeless Templar Splinter, ts2
+Timeless Vaal Splinter, ts3
+Timeless Eternal Empire Splinter, ts4
+Timeless Karui Splinter, ts5
+Gift to the Goddess, la1
+Dedication to the Goddess, la2
+Tribute to the Goddess, la3
+Offering to the Goddess, la4
+Divine Vessel, ves
+
+
