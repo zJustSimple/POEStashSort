@@ -18,4 +18,4 @@ An updated version of Kokosoida's Stash Sorter.
 
 #### NOTICE:
 By default, the script is set to work with the game running at 1280x1024. If you run any other resolution you'll need to find out the stash tile offset and coordinates yourself.
-Run POE in windowed at your desired resolution, run AHK's WindowSpy and focus the POE window. Place your cursor in the middle of the top left corner stash tab "square's" ( coordinates 1x1 ) The values you need should be in the Mouse Position category under "Window". The offset is calculated by taking the second "square" ( in horizontal or vertical order ) position and substracting the first "square's" position.
+Run POE in windowed at your desired resolution, run AHK's WindowSpy and focus the POE window. Place your cursor in the middle of the top left corner stash tab "square" ( coordinates 1x1 ). Get the coordinates from WindowSpy. The values you need should be in the Mouse Position category under "Window". The offset is calculated simply by taking the coordinates of the second "square" ( in horizontal or vertical order ) and substracting the coordinates of the first "square".
