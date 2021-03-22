@@ -44,7 +44,7 @@ while (i < 13)
     clipboard := ""
     while (j < 13)
     {
-
+        Input, SingleKey, L1, {F}
         Send ^c
         Sleep, CLIPBOAD_DELAY
         
@@ -118,6 +118,7 @@ while (i < 13)
             GetCoords(j, i)
             MouseMove, %FoundX%, %FoundY%, SPEED
             Sleep, MOUSE_OVER_DELAY
+            Input, SingleKey, L1, {F}
             Send ^{Click}
             Sleep, CLICK_DELAY
             Stash%i%_%j% := EMPTY_PLACE
@@ -168,6 +169,7 @@ while (iter <= ParseCount)
                         GetCoords(j, i)
                         MouseMove, %FoundX%, %FoundY%, SPEED
                         Sleep, MOUSE_OVER_DELAY
+                        Input, SingleKey, L1, {F}
                         Send ^{Click}
                         Sleep, CLICK_DELAY
                         Stash%i%_%j% := EMPTY_PLACE
@@ -232,12 +234,14 @@ Swap(sx, sy, s1x, s1y)
     GetCoords(sx, sy)
     MouseMove, %FoundX%, %FoundY%, SPEED
     Sleep, MOUSE_OVER_DELAY
+    Input, SingleKey, L1, {F}
     Send {Click}
     Sleep, CLICK_DELAY
     
     GetCoords(s1x, s1y)
     MouseMove, %FoundX%, %FoundY%, SPEED
     Sleep, MOUSE_OVER_DELAY
+    Input, SingleKey, L1, {F}
     Send {Click}
     Sleep, CLICK_DELAY
     
@@ -247,6 +251,7 @@ Swap(sx, sy, s1x, s1y)
         GetCoords(sx, sy)
         MouseMove, %FoundX%, %FoundY%, SPEED
         Sleep, MOUSE_OVER_DELAY
+        Input, SingleKey, L1, {F}
         Send {Click}
         Sleep, CLICK_DELAY
     }
