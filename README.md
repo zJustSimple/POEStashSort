@@ -4,9 +4,10 @@ This is an updated version of Kokosoida's Stash Sorter.
 
 New Features:
 Added most currencies up until 3.13
+
 Changed classes.txt parser to split strings in substrings based by commas, giving us the ability to compare the item's full name as in "Maven's Orb, mvn" instead of "Maven's mvn"
 
-Has a TOS Friendly version
+TOS Friendly version
 
 NOTICE:
 By default, the script is set to work with the game running at 1280x1024. If you run any other resolution you'll need to find out the stash tile offset and coordinates yourself.
