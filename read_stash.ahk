@@ -1,4 +1,4 @@
-SPEED := 2 ;;; mouse movement speed
+SPEED := 1.5 ;;;mouse movement speed
 MOUSE_OVER_DELAY := 20 ;;; delay after mouse moved
 CLIPBOAD_DELAY := 50 ;;; delay after ctrl + c pressed
 CLICK_DELAY := 300 ;;; delay after mouse click
@@ -6,8 +6,8 @@ BETWEEN_ACTIONS_DELAY := 300 ;;;
 
 SORT_FILE := "sort1.txt" ;;; name of file with sort layout
 
-TOP_RIGHT_CORNER_X := 30 ;;; Top right X coordinate of stash
-TOP_RIGHT_CORNER_Y := 125 ;;; Top right Y coordinate of stash
+TOP_RIGHT_CORNER_X := 39 ;;; Top right X coordinate of stash
+TOP_RIGHT_CORNER_Y := 145 ;;; Top right Y coordinate of stash
 
 LOGGING := 0
 NOTIFICATIONS := 0
@@ -28,8 +28,8 @@ Loop, read, classes.txt
 
 
 ;;; Read info from POE stash
-_InvOffsetX := 36
-_InvOffsetY := 36
+_InvOffsetX := 40
+_InvOffsetY := 40
 
 WinWait, Path of Exile
 WinActivate ;
@@ -63,7 +63,7 @@ while (i < 13)
                 FoundPos := 0
                 clipboard := RegExReplace(clipboard, "s)---..*$") ;;; Cut everything but first 2 lines
                 FoundPos := RegExMatch(clipboard, el)
-                if (FoundPos > 0)
+                if (FoundPos > 1)
                 {
                     Stash%i%_%j% := Parse%p%_2
                     Stash%i%_%j%_p := p ;;; priority
