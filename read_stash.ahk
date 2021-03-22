@@ -6,8 +6,8 @@ BETWEEN_ACTIONS_DELAY := 300 ;;;
 
 SORT_FILE := "sort1.txt" ;;; name of file with sort layout
 
-TOP_RIGHT_CORNER_X := 39 ;;; Top right X coordinate of stash
-TOP_RIGHT_CORNER_Y := 145 ;;; Top right Y coordinate of stash
+TOP_LEFT_CORNER_X := 47 ;;; Top left X coordinate of stash
+TOP_LEFT_CORNER_Y := 173 ;;; Top left Y coordinate of stash
 
 LOGGING := 0
 NOTIFICATIONS := 0
@@ -28,14 +28,14 @@ Loop, read, classes.txt
 
 
 ;;; Read info from POE stash
-_InvOffsetX := 40
-_InvOffsetY := 40
+_InvOffsetX := 45
+_InvOffsetY := 45
 
 WinWait, Path of Exile
 WinActivate ;
 FileDelete, inv.txt
 
-MouseMove, TOP_RIGHT_CORNER_X, TOP_RIGHT_CORNER_Y, SPEED
+MouseMove, TOP_LEFT_CORNER_X, TOP_LEFT_CORNER_Y, SPEED
 Sleep, MOUSE_OVER_DELAY
 i := 1
 while (i < 13)
@@ -256,8 +256,8 @@ Swap(sx, sy, s1x, s1y)
 GetCoords(gcx, gcy)
 {
     global
-    FoundX := TOP_RIGHT_CORNER_X + (gcx-1)*_InvOffsetX
-    FoundY := TOP_RIGHT_CORNER_Y + (gcy-1)*_InvOffsetY
+    FoundX := TOP_LEFT_CORNER_X + (gcx-1)*_InvOffsetX
+    FoundY := TOP_LEFT_CORNER_Y + (gcy-1)*_InvOffsetY
 }
 
 FindPlace(fpx, fpy, iteration)
