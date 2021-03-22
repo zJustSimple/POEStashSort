@@ -5,6 +5,7 @@ This is an updated version of Kokosoida's Stash Sorter.
 New Features:
 Added most currencies up until 3.13
 Changed classes.txt parser to split strings in substrings based by commas, giving us the ability to compare the item's full name as in "Maven's Orb, mvn" instead of "Maven's mvn"
+
 Has a TOS Friendly version
 
 NOTICE:
