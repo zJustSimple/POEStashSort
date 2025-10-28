@@ -9,6 +9,9 @@ An updated version of Kokosoida's Stash Sorter.
 
 * TOS Friendly version
 
+## Documentation
+See API, configuration, file formats, and examples in `API_DOCUMENTATION.md`.
+
 # HOW TO USE: 
 1. Open Path Of Exile
 2. Open the stash tab you want to sort
